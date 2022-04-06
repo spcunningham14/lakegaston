@@ -1,0 +1,93 @@
+<!--- Always include 3 elements to HTML code. 
+1- The doctype.
+2- The head (metadata).
+3- The content.-->
+<!DOCTYPE html>
+
+<head>
+    <html lang="en">
+    <!--- HEAD is metadata. --->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+
+</head>
+
+<!---  SEMANTIC TAGS
+        HEADER is a semantic tag that
+        is used in HTML5 to provide all kinds of additional
+        functions. This is the future. Div,p are outdated. --->
+<body>
+    <header>
+        This is the header of my page, but I put no tags on it.
+        <h2>Below are links to other pages</h2>
+        <nav> 
+            <ul>
+                <li>Other Maps</li>
+                <li>About the author</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h1>This article is about lists.</h1>
+                <h3>It's not really an article, but it IS a list.</h3>
+            </header>
+            
+            <p> 
+                <br>
+                <br>
+                Pretty easy to type text. What about lists?
+                <br>
+                <br>
+                <ol>
+                    <li> One</li>
+                    <li> One</li>
+                    <li> More</li>
+                </ol>
+                <ul>
+                    <li> One</li>
+                    <li> One</li>
+                    <li> More</li>
+                </ul>
+                <br>
+                <br>
+            </p>
+            <footer>
+                This is the end of the article about lists.
+            </footer>
+        </article>
+        <hr>
+        <section>
+            <header>
+                <h1>This is a section about london</h1>
+            </header>
+            <figure>
+                <img 
+                    src="london.PNG" 
+                    alt="Map of London"
+                    title="This is a photo of london via google maps" 
+                    width = "75%"
+                    />
+                <figcaption>Caption: Image of London. 75% of screen.</figcaption>
+            </figure>
+            <footer> 
+                So ends my article about london
+            </footer>    
+        </section>
+        <hr>
+
+        <video src="Flo Rida - Zillionaire [Official Video].mkv" controls width="75%"> some florida video </video>
+        <audio src="Flo Rida - Zillionaire [Official Video].mkv" controls> some music by florida</audio>
+    </main>
+ 
+    <footer>
+        <h6>Down here is the footer of the page!</h6>
+        &copy; 2022 Sean Cunningham <br>
+        <a href="https://youtu.be/TdqQqyc7pfU"> Web Development Course on Youtube</a>
+    </footer>
+</body>
+
+</html>
